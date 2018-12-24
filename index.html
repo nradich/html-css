@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web HomeWork DashBoard</title>
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Implementing the navbar -->
+       <nav class="navbar navbar-inverse" navbar-dark bg-dark sticky-top>
+            <span class = 'navbar-text'>Latitude Plots and Comparisons</span>
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Latitude</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                      <div class="dropdown-menu">
+                        <a class = "dropdown-item" href="./cloudiness.html">Max Temperature</a>
+                        <a class = "dropdown-item" href="./humidity.html">Humidity</a>
+                        <a class = "dropdown-item" href="./cloudiness.html">Cloudiness</a>
+                        <a class = "dropdown-item" href="./windspeed.html">Wind Speed</a>
+                      </div>
+                    </li>
+                    <li><a href="./comparison.html">Comparisons</a></li>
+                    <li><a href="./data.html">Data</a></li>
+                  </ul> 
+                </div>
+              </nav> 
+
+          
+
+    
+    <!-- Trying to implement new image -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 pad top"> <br>
+          <h3>Summary: Global Weather Plots</h3> <br>
+        </div>
+        <div class="col-md-4 pad-top">
+          <img class="img-responsive" src="/Users/nickrad/Desktop/workspace/practice/11-Web/homework/Resources/assets/images/Fig1.png">
+        </div>
+    </div>
+
+    <div class="col-md-6 pad top"> <br>
+      <h3>Visualizations</h3> <br>
+    </div>
+</div>
+
+
+<div class="row">
+  
+  <div class="col-md-6 pad top"> <br>
+  
+  <div class="pull-left">
+              
+  </div>
+  
+  <div class="text-left">
+              <p> The purpose of this project was to analyze how weather changes as you get closer to the
+                  equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap
+                  API to assemble a dataset of over 500 cities. </p> <br>
+              <p> After assembling the dataset, Matplotlib was used to plot various aspects of weather
+                  vs. latitude. Factors analyzed included: temperature, cloudiness, wind-speed and humidity. </p> <br>
+              <p> Additionally, Matplotlib was used to plot aspects of the weather using longitude
+                  vs. latitude. The intent was to visualize a world map using weather plots. This site
+                  provides the source data and visualizations created as part of the analysis,
+                  as well as explanations and descriptions of any trends and correlations witnessed. </p>
+  </div>
+  
+</div>
+</div>
+
+<div class="col-md-3 pad top"> <br>
+    
+              <div class="pull-right">
+                <a href="#"><img src="/Users/nickrad/Desktop/workspace/practice/11-Web/homework/Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" width="100%" height="100%"></a>
+                <a href="#"><img src="/Users/nickrad/Desktop/workspace/practice/11-Web/homework/Resources/assets/images/Fig2.png" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
+              </div>
+    
+           </div>
+    
+           <div class="col-md-3 pad top"> <br>
+    
+            <div class="pull-right">
+              <a href="#"><img src="/Users/nickrad/Desktop/workspace/practice/11-Web/homework/Resources/assets/images/Fig3.png" alt="Latitude vs. Humidity" width="100%" height="100%"></a>
+              <a href="#"><img src="/Users/nickrad/Desktop/workspace/practice/11-Web/homework/Resources/assets/images/Fig4.png" alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
+            </div>
+    
+          </div>
+
+
+
+
+</body>
+</html>
